@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import burger4 from '../assets/images/burger6.png';
+import burger6 from '../assets/images/burger6.png';
 
 
 export default function SplashScreen({ onStart }) {
