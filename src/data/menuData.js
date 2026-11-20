@@ -1,3 +1,8 @@
+import burger1 from '../assets/images/burger1.png';
+import burger2 from '../assets/images/burger2.png';
+import burger3 from '../assets/images/burger3.png';
+import burger4 from '../assets/images/burger4.png';
+
 export const CATEGORIES = ['All', 'Combos', 'Sliders', 'Classic', 'Chicken'];
 
 export const MENU_ITEMS = [
@@ -11,7 +16,7 @@ export const MENU_ITEMS = [
     basePriceZAR: 115.00,
     description:
       'Flame-grilled pure beef patty layered with melted aged cheddar, crisp lettuce, vine-ripened tomato, pickles, and our signature smoky StoreHouse glaze on a toasted brioche bun.',
-    image: 'src/assets/images/burger4.png'
+    image: burger4
   },
   {
     id: 2,
@@ -23,7 +28,7 @@ export const MENU_ITEMS = [
     basePriceZAR: 98.00,
     description:
       'Hearty plant-based patty topped with smashed avocado, roasted red peppers, wild rocket, and garlic herb aioli on a multigrain bun.',
-    image: 'src/assets/images/burger3.png'
+    image: burger3
   },
   {
     id: 3,
@@ -35,7 +40,7 @@ export const MENU_ITEMS = [
     basePriceZAR: 108.00,
     description:
       'Golden buttermilk-fried chicken breast tossed in spicy honey glaze, finished with crunchy jalapeño slaw and tangy dill mayo.',
-    image: 'src/assets/images/burger2.png'
+    image: burger2
   },
   {
     id: 4,
@@ -47,7 +52,7 @@ export const MENU_ITEMS = [
     basePriceZAR: 155.00,
     description:
       'Double crispy chicken burger served alongside seasoned skin-on rosemary fries, smoky BBQ dip, and an ice-cold craft beverage.',
-    image: 'src/assets/images/burger1.png'
+    image: burger1
   }
 ];
 

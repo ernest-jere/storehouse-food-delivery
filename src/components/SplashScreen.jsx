@@ -1,5 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import burger4 from '../assets/images/burger4.png';
+
 
 export default function SplashScreen({ onStart }) {
   return (
@@ -24,7 +26,7 @@ export default function SplashScreen({ onStart }) {
         {/* Hero Burger Showcase Image */}
         <div className="w-60 h-60 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl my-4">
           <img
-            src="src/assets/images/burger6.png"
+            src={burger4}
             alt="StoreHouse Signature Burger"
             className="w-full h-full object-cover scale-105"
           />
